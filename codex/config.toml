@@ -1,0 +1,36 @@
+model = "gpt-5.3-codex"
+model_reasoning_effort = "xhigh"
+personality = "pragmatic"
+[projects."/Users/kdb/Downloads/Agent_Evaluator"]
+trust_level = "trusted"
+
+[projects."/Users/kdb/Desktop/devai"]
+trust_level = "untrusted"
+
+[projects."/Users/kdb/Desktop"]
+trust_level = "untrusted"
+
+[projects."/Users/kdb/Desktop/kiosk_agent"]
+trust_level = "trusted"
+
+[projects."/Users/kdb"]
+trust_level = "untrusted"
+
+[projects."/Users/kdb/Desktop/직구에이전트"]
+trust_level = "trusted"
+
+[projects."/Users/kdb/Desktop/openclaw-stock"]
+trust_level = "trusted"
+
+[projects."/Users/kdb/Desktop/upbit-rs"]
+trust_level = "trusted"
+
+[projects."/Users/kdb/Desktop/ktds_notebooklm"]
+trust_level = "trusted"
+
+[projects."/Users/kdb/Desktop/risk_agent"]
+trust_level = "trusted"
+
+[mcp_servers.Context7]
+command = "npx"
+args = ["-y", "@upstash/context7-mcp@latest", "--api-key", "REDACTED_CONTEXT7_API_KEY"]
