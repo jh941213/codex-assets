@@ -1,0 +1,11 @@
+# local runtime/sensitive codex data
+codex/auth.json
+codex/history.jsonl
+codex/models_cache.json
+codex/log/
+codex/tmp/
+codex/sessions/
+codex/backups/
+
+# generic
+.DS_Store
